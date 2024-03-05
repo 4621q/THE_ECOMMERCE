@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.first-section article {
+  margin-top: 10px;
+}
+
+
+.your-shopping {
+  font-size: 22px;
+}
+
+.s-search {
+  /* padding-top: 18px; */
+}
+
+.s-search input {
+  padding: 10px 40px 10px 0px;
+  width: 100%;
+}
+
+.s-cart {
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+.s-cart p {
+   font-size: 22px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+.head {
+  border: 1px solid red;
+  padding: 20px 0;
+  background-color: red;
+}
+
+.head a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+  h1,h2 {
+    text-align: center;
+  }
+
+h2 {
+  margin: 20px 0;
+}
+
+.next-prev {
+    border: 1px solid red;
+    background-color: red;
+    text-align: center;
+    width: 20%;
+    margin: 40px auto;
+    padding: 20px 0;
+}
+
+.next-prev a {
+  color: white;
+  text-decoration: none; 
+  padding: 0 10px;
+}
+
+.next-prev a:hover {
+  color: blue;
+}
+
+.for-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.for-flex div {
+  flex: 1;
+}
+
+
+.for-flex div >p {
+     padding: 10px 0;
+
+}
+
+
+button {
+  background-color: red;
+  color: white;
+  padding: 7px;
+}
+
+.footer-display {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+
+}
+
+.footer-display div>a {
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.first-section article {
+  margin-top: 10px;
+}
+
+
+.your-shopping {
+  font-size: 22px;
+}
+
+.s-search {
+  /* padding-top: 18px; */
+}
+
+.s-search input {
+  padding: 10px 40px 10px 0px;
+  width: 100%;
+}
+
+.s-cart {
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+.s-cart p {
+   font-size: 22px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+.head {
+  border: 1px solid red;
+  padding: 20px 0;
+  background-color: red;
+}
+
+.head a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.welcome-page {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 20%;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.underline {
+  border: 1px solid gray;
+  width: 98%;
+  margin-left: 10px;
+}
+
+.supplier-client {
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* flex-wrap: wrap; */
+}
+
+.supplier {
+  margin-left: 10px;
+}
+
+.supplier p,
+.supplier h2 {
+  padding: 10px;
+}
+
+.client {
+  margin-left: 400px;
+}
+
+.client p,
+.client h2 {
+  padding: 10px;
+}
+
+.p-methods span {
+   font-weight: bold;
+}
+
+.method-issue {
+  display: flex;
+}
+
+.for-issue {
+  margin-left: 620px;
+}
+
+.view-des  {
+  display: flex;
+  justify-content: space-between;
+  border:  1px solid red;
+  padding: 20px 0;
+  background-color: red;
+  color: white;
+  font-size: 25px;
+}
+
+.clear-cart {
+  margin: 20px 40px;
+  padding: 15px;
+  border-radius: 7px;
+  background-color: brown;
+  color: white;
+}
+
+.note-subtotal {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+
+.subtotal {
+   margin-left: 160px; 
+}
+
+.subtotal p {
+   font-size: 35px;
+}
+
+.subtotal input {
+  padding: 10px 0;
+  width: 300%;
+  color: black;
+  border: 1px ridge black;
+}
+
+.subtotal input::placeholder {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+placeholder {
+  font-weight: bold;
+}
+
+
+.next-prev {
+  border: 1px solid red;
+  background-color: red;
+  text-align: center;
+  width: 20%;
+  margin: 40px auto;
+  padding: 20px 0;
+}
+
+.next-prev a {
+color: white;
+text-decoration: none; 
+padding: 0 10px;
+}
+
+.next-prev a:hover {
+color: blue;
+}
+
+
+.footer-display {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.footer-display div > a {
+  display: block;
+  padding: 20px 0;
+  text-decoration: none;
+  color: white;
+}

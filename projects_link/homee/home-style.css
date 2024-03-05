@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.first-section article {
+  margin-top: 10px;
+}
+
+
+.your-shopping {
+  font-size: 22px;
+}
+
+.s-search {
+  /* padding-top: 18px; */
+}
+
+.s-search input {
+  padding: 10px 40px 10px 0px;
+  width: 100%;
+}
+
+.s-cart {
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+.s-cart p {
+   font-size: 22px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+.head {
+  border: 1px solid red;
+  padding: 20px 0;
+  background-color: red;
+}
+
+.head a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: brown;
+}
+
+.underline {
+  border: 1px solid red;
+  width: 95%;
+}
+
+.first-article p {
+  padding: 20px 0;
+  font-size: 25px;
+}
+
+.first-article h2 {
+  padding: 20px 0;
+  font-size: 25px;
+  color: brown;
+}
+
+.input-style div >input {
+  padding: 10px 40px 10px 0px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.main-article {
+  display: flex;
+}
+
+.container section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container section > div {
+  flex: 1;
+  padding: 20px 10px;
+}
+
+.container div> p {
+    padding: 20px 0;
+}
+
+button {
+  background-color: brown;
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+  color: white;
+  font-size: 17px;
+}
+
+.next-prev  {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.next-prev a {
+  background-color: brown;
+  text-decoration: none;
+  color: white;
+  padding: 10px ;
+
+}
+
+.footer-display {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+
+}
+
+.footer-display div>a {
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    color: white;
+}
